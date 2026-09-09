@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import NewTask from "./components/NewTask";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        My first code is here
-      </p>
+      <NewTask/>
     </div>
   );
 }
